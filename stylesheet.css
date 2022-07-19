@@ -1,0 +1,19 @@
+.box {
+    background-color: brown;
+    width: 3rem;
+    aspect-ratio: 1;
+    margin: 1rem ;
+    
+   
+    transition: transform 300ms;
+}
+
+.box:hover {
+
+    transform: scale(1.2);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2 2 2;
+}
